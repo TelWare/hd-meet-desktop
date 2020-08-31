@@ -1,9 +1,9 @@
 {
-  "name": "jitsi-meet-electron",
+  "name": "hd-meet-desktop",
   "version": "2.3.1",
-  "description": "Electron application for Jitsi Meet",
+  "description": "Electron application for HD Meet",
   "main": "./build/main.js",
-  "productName": "Jitsi Meet",
+  "productName": "HD Meet",
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
     "clean": "rm -rf node_modules build dist",
@@ -18,8 +18,8 @@
     "node": ">=12.0.0"
   },
   "build": {
-    "appId": "org.jitsi.jitsi-meet",
-    "productName": "Jitsi Meet",
+    "appId": "org.telware.hd-meet",
+    "productName": "HD Meet",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "**/*",
@@ -35,15 +35,15 @@
       "entitlements": "entitlements.mac.plist",
       "entitlementsInherit": "entitlements.mac.plist",
       "extendInfo": {
-        "NSCameraUsageDescription": "Jitsi Meet requires access to your camera in order to make video-calls.",
-        "NSMicrophoneUsageDescription": "Jitsi Meet requires access to your microphone in order to make calls (audio/video)."
+        "NSCameraUsageDescription": "HD Meet requires access to your camera in order to make video-calls.",
+        "NSMicrophoneUsageDescription": "HD Meet requires access to your microphone in order to make calls (audio/video)."
       }
     },
     "linux": {
       "artifactName": "jitsi-meet-${arch}.${ext}",
       "category": "VideoConference;AudioVideo;Audio;Video;Network",
-      "description": "Jitsi Meet Desktop App",
-      "executableName": "jitsi-meet",
+      "description": "HD Meet Desktop App",
+      "executableName": "hd-meet",
       "target": [
         {
           "arch": "x64",
