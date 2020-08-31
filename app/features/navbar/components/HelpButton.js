@@ -97,21 +97,9 @@ class HelpButton extends Component<*, State> {
                 onOpenChange = { this._onOpenChange }
                 position = 'right bottom'
                 trigger = { <HelpIcon /> }>
-                <Group heading = { t('help') } >
-                    <Item onActivate = { this._onTermsClick }>
-                        { t('termsLink') }
-                    </Item>
-                    <Item onActivate = { this._onPrivacyClick }>
-                        { t('privacyLink') }
-                    </Item>
-                    <Item onActivate = { this._onSendFeedbackClick }>
-                        { t('sendFeedbackLink') }
-                    </Item>
+                <Group heading = { t('help') } >              
                     <Item onActivate = { this._onAboutClick }>
                         { t('aboutLink') }
-                    </Item>
-                    <Item onActivate = { this._onSourceClick }>
-                        { t('sourceLink') }
                     </Item>
                     <Item>
                         { t('versionLabel', { version }) }

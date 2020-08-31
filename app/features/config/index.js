@@ -3,7 +3,7 @@ export default {
     /**
      * The URL with extra information about the app / service.
      */
-    aboutURL: 'https://jitsi.org/what-is-jitsi/',
+    aboutURL: 'https://telware.com',
 
     /**
      * The URL to the source code repository.
@@ -13,7 +13,7 @@ export default {
     /**
      * Application name.
      */
-    appName: 'Jitsi Meet',
+    appName: 'HD Meet',
 
     /**
     * The prefix for application protocol.
@@ -24,7 +24,7 @@ export default {
     /**
      * The default server URL of Jitsi Meet Deployment that will be used.
      */
-    defaultServerURL: 'https://meet.jit.si',
+    defaultServerURL: 'https://hdmeet.com',
 
     /**
      * The default server Timeout in seconds.
@@ -34,7 +34,7 @@ export default {
     /**
      * URL to send feedback.
      */
-    feedbackURL: 'mailto:support@jitsi.org',
+    feedbackURL: 'mailto:support@telware.com',
 
     /**
      * The URL of Privacy Policy Page.
