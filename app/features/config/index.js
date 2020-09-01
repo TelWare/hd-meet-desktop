@@ -39,7 +39,7 @@ export default {
     /**
      * The URL of Privacy Policy Page.
      */
-    privacyPolicyURL: 'https://jitsi.org/meet/privacy',
+    privacyPolicyURL: 'https://www.telware.com/privacy-policy',
 
     /**
      * The URL of Terms and Conditions Page.
