@@ -3,7 +3,7 @@ export default {
     /**
      * The URL with extra information about the app / service.
      */
-    aboutURL: 'https://telware.com',
+    aboutURL: 'https://www.telware.com/learn/about',
 
     /**
      * The URL to the source code repository.
